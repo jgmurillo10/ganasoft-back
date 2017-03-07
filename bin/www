@@ -7,7 +7,7 @@ var app = require('../app');
 var debug = require('debug')('ganasoft-back:server');
 var http = require('http');
 var mongoose = require('mongoose');
-
+// es recomendable usar env variables para almacenar este tipo de links bebe
 const url='mongodb://webdev:webdev@ds113580.mlab.com:13580/heroku_r69x2mtf';
 
 mongoose.connect(url);
